@@ -1,0 +1,132 @@
+.nowrap_td {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+a {
+	color: inherit;
+	text-decoration: underline;
+	outline: 0;
+}
+
+a:hover {
+	color: #0060df;
+	text-decoration: underline;
+	outline: 0;
+	-webkit-transition: color .26s;
+	-moz-transition: color .26s;
+	transition: color .26s;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+a:focus {
+	outline: 0;
+}
+
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #42425a;
+	display: inline-block;
+	line-height: 1.25;
+	padding: .25em 8px;
+	font-size: 1.4rem;
+}
+
+input[type=date]:hover,
+input[type=email]:hover,
+input[type=number]:hover,
+input[type=password]:hover,
+input[type=search]:hover,
+input[type=tel]:hover,
+input[type=text]:hover,
+input[type=time]:hover,
+input[type=url]:hover,
+textarea:hover {
+	border-color: #000
+}
+
+input[type=date]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+textarea:focus {
+	border-color: #000;
+	box-shadow: 0 0 0 2px #0090ed
+}
+
+input[type=date]:disabled,
+input[type=email]:disabled,
+input[type=number]:disabled,
+input[type=password]:disabled,
+input[type=search]:disabled,
+input[type=tel]:disabled,
+input[type=text]:disabled,
+input[type=time]:disabled,
+input[type=url]:disabled,
+textarea:disabled {
+	background: #cdcdd4
+}
+
+input[type=date]:disabled:focus,
+input[type=date]:disabled:hover,
+input[type=email]:disabled:focus,
+input[type=email]:disabled:hover,
+input[type=number]:disabled:focus,
+input[type=number]:disabled:hover,
+input[type=password]:disabled:focus,
+input[type=password]:disabled:hover,
+input[type=search]:disabled:focus,
+input[type=search]:disabled:hover,
+input[type=tel]:disabled:focus,
+input[type=tel]:disabled:hover,
+input[type=text]:disabled:focus,
+input[type=text]:disabled:hover,
+input[type=time]:disabled:focus,
+input[type=time]:disabled:hover,
+input[type=url]:disabled:focus,
+input[type=url]:disabled:hover,
+textarea:disabled:focus,
+textarea:disabled:hover {
+	border-color: #42425a
+}
+
+button {
+	background-color: transparent;
+	background-image: none;
+	border-radius: 2px;
+	border: 2px solid #0060df;
+	box-shadow: none;
+	color: #0060df;
+	padding: 8px 16px;
+	transition: background-color .26s;
+	font-size: 16px;
+	font-size: 1.2rem;
+}
+
+button:hover {
+	background-color: #0060df;
+	border-color: #0060df;
+	color: #fff;
+}

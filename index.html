@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<title>The-Seth-Project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="referrer" content="no-referrer">
+
+	<script src="https://hcaptcha.com/1/api.js?hl=zh-CN&onload=capload&render=explicit&recaptchacompat=off" async defer></script>
+
+	<link href="styles/main.css" rel="stylesheet">
+	<style type="text/css">
+		html {
+			height: auto;
+		}
+
+		body {
+			max-width: 1300px;
+			margin: auto;
+			font-family: sans-serif;
+			padding: 10px;
+		}
+
+		*::-moz-focus-inner {
+			border: none;
+		}
+
+		.block {
+			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+			border: 1px solid #e8e8e8;
+			background: white;
+			padding: 32px;
+			margin: 32px 0px;
+		}
+
+		#gettry {
+			margin: 0 auto;
+			text-align: center;
+			margin: 48px 0px;
+		}
+
+		#downloadtips2 {
+			width: auto;
+			max-width: 520px;
+			margin: 12px auto;
+			padding: 20px;
+			background-color: #ededf0;
+		}
+
+		#downloadtips {
+			display: none;
+			width: auto;
+			max-width: 520px;
+			margin: 0 auto;
+			padding: 20px;
+			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+			border: 1px solid #e8e8e8;
+			background-color: #ffc;
+		}
+
+		#download {
+			display: inline-block;
+			width: 520px;
+			max-width: 1000px;
+			margin-top: 32px;
+			padding: 20px;
+			box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+			border: 1px solid #e8e8e8;
+
+		}
+
+		#download table {
+			margin-top: 18px;
+			width: 100%;
+			border: none;
+			border-collapse: collapse;
+
+		}
+
+		#download td {
+			text-align: left;
+			padding: 8px;
+			vertical-align: middle;
+			border: none;
+		}
+
+		#download img {
+			width: 28px;
+		}
+		
+		#download .icon {
+			text-align: center;
+		}
+		
+		#download .uris {
+			text-align: right;
+		}
+		
+		#download .osname {
+			width: 99%;
+		}
+		
+		#download td:not(.osname) {
+			white-space: nowrap;
+		}
+		
+		#download tr:hover {
+			background-color: #f7f7f7;
+		}
+		
+		@media (max-width: 750px) {
+			.block {
+				padding: 16px;
+			}
+
+			#download {
+				padding: 8px;
+				width: auto;
+			}
+		}
+
+		h1 {
+			display: block;
+			font-size: 1.84em;
+			margin: 0px;
+			padding: 6px 0px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+
+		h2 {
+			display: block;
+			font-size: 1.36em;
+			margin: 0px;
+			padding: 4px 0px;
+			font-weight: 500;
+		}
+
+		h3 {
+			display: block;
+			font-size: 1.4em;
+			margin: 0px;
+			padding: 4px 0px;
+			font-weight: 600;
+		}
+
+		p {
+			font-size: 1.12em;
+		}
+
+		#uservoice {
+			padding: 16px;
+		}
+
+		#uservoice p {
+			margin: 18px 0 4px 0;
+		}
+
+		#uservoice span {
+			display: block;
+			margin-left: 16px;
+		}
+
+		.bg1 {
+			background-color: #c42482;
+			background-image: linear-gradient(222deg, #ff272d 0, #c42482 33%, #ab217f 47%, #671878 84%, #4a1475 100%);
+			color: #fff;
+		}
+
+		.bg2 {
+			background-image: linear-gradient(to left, #00feff 0, #10fcb2 67%, #24f954 100%);
+		}
+
+		.bg3 {
+			background-color: #0060df;
+			background-image: linear-gradient(to bottom, #0060df 0, #0072bb 50%, #006292 100%);
+			color: #fff;
+		}
+
+		.bg4 {
+			background: #ededf0;
+		}
+
+	</style>
+</head>
+
+<body>
+
+	<div class="block">
+		<h1>Seth 崭新登场</h1>
+		<h2>全新的开放源代码 Seth 软件包。</h2>
+		<h2>现在，丢掉 Netkeeper，重新使用自由的方式在校园接入互联网。</h2>
+
+		<p><a href='#gettry'>立即体验</a></p>
+		<p><a href='https://www.github.com/seth-nk/sdk.git'>获取/Hack源代码</a></p>
+	</div>
+	<div class="block bg1">
+		<h1>真正的自由无限制</h1>
+		<h3>使用任何作业系统在校园连接互联网</h3>
+		<p>无论你使用 Windows(R), GNU/Linux，还是其他 UNIX(R) 作业系统（如 FreeBSD，DragonFly BSD 等等等），你都可以轻易接入互联网，互联网服务供应商提供的软件（Netkeeper）仅支持级少量的作业系统（通常只有 Windows 和 macOS），这迫使学生不得不花费巨资购买价格高昂的 Windows 软件许可证或苹果电脑。Seth 软件可以帮助学生打破大资本家的垄断。</p>
+		<h3>Seth 与 FOSS 软件兼容</h3>
+		<p>Seth 软件包和 SDK 是以麻省理工学院许可证（MIT License）许可的自由&amp;开源软件。互联网服务供应商提供的软件（Netkeeper）与 FOSS 软件不兼容。</p>
+		<h3>在 Intel/AMD 之外的处理器上使用</h3>
+		<p>Seth 软件包和 SDK 可以在非 x86 家族的处理器上运行。互联网服务供应商提供的软件（Netkeeper）只能在 x86 家族的处理器上运行，这使学生在购买计算机时只能考虑昂贵的 Intel/AMD 处理器。现在，市场上存在大量廉价的基于 ARM 或者 MIPS （以后可能还有 RISC-V）SoC 的计算机。使用 Seth，你就无需在购买计算机时受到不公正的待遇。</p>
+	</div>
+	<div class="block bg2">
+		<h1>速度翻倍</h1>
+		<h2>想要等待连接网络的时间更短？这里有。Seth 现在达到比供应商软件的数十倍快。</h2>
+		<p>Seth 的桌面版软件经过专门的优化设计，速度比供应商软件启动快数十倍。使用 Seth，联网快人一步，节省更多的时间进行你的学业、科研、实验工作。赢在起跑线。</p>
+	</div>
+	<div class="block bg3">
+		<h1>比供应商软件更轻</h1>
+		<h2>更少内存占用意味着能给您电脑流畅运行腾出更多空间。电脑上其他程序将倍感轻松。</h2>
+		<p>Seth 的桌面版软件无需在系统后台持续运行。免除了因不必要的上下文切换和后台任务带来的 CPU 开销。此外，更少的内存使用 = 可以启动更多的应用程序。让你的电脑发挥它的最大价值。</p>
+	</div>
+	<div class="block bg4">
+		<h1>等等，如果你是开发者，Seth 还是一个通用的平台</h1>
+		<h3>Seth 提供了一个开放的、通用的框架以开发应用程序</h3>
+		<p>Seth 库和框架使得制作自己需要访问 Netkeeper 功能的应用程序如此简单。</p>
+		<h3>Seth-Desktop（Seth 的桌面版软件）高度可定制</h3>
+		<p>Seth 的桌面版软件提供多种后端（如 RP-PPPoE，RP-PPPoE 内核模式，NetworkManager 集成、Win32 RAS API、以及将来要添加的 Webhook 等）和多种前端（CLI 交互模式、CLI 脚本模式、GTK+ 图形界面模式）。你可以轻易创建前端或后端而不影响其他模块，同时可以重用了大量代码，快速与你的业务集成。</p>
+		<p><a href='https://www.github.com/seth-nk/sdk.git'>获取/Hack源代码</a></p>
+	</div>
+
+	<div id="uservoice">
+		<h3>用家如是说</h3>
+		<p><b>つばき</b> 写到：</p><span>Seth 真的拯救了我的校园生活，过去，我必须请使用 Windows 作业系统的舍友帮助以在校园连网（通过抓号的办法），麻烦费事。我也不想专门再买一台电脑用于安装 Windows 和 Netkeeper。有时候我的舍友不在，我不得不使用手机无线热点上网。现在，通过 Seth 套件，我可以轻松在我的 Linux 上连接宽带。Seth 项目似乎遇到了一些问题并下线，但是现在 Seth 找到我们宣布项目重启时，真的让我很高兴。强烈推荐大家使用。</span>
+		<p><b>MoSI-NG</b> 写到：</p><span>快速而极简，与 Seth-Desktop 相比，Netkeeper 显得过时。</span>
+		<p><b>Arrien</b> 写到：</p><span>Seth 能避免用於連線網際網路的基礎設施被專有軟體所控制。有助於幫助學生使用 FOSS 軟體。在這一點上確實意義重大。</span>
+		<p><b>glider0</b> 写到：</p><span>Seth 是我在校园中必不可少的软件。与 Seth 开发者的交流很轻松，我曾经为 Seth 制作了 OpenWrt 移植（现在由 Seth 核心开发者维护）。</span>
+	</div>
+
+	<div class="block">
+		<h3>Seth 软件完全开源且自由，但必须配备数据文件才能为你工作</h3>
+		<h3>数据文件即将永久免费提供，我们正在处理一些基础设施方面的问题</h3>
+		<p>“Seth NK 数据文件”：为了防止被恶意利用，Seth 数据文件的生成工具不向最终用户分发。必须利用数据文件，用户才可以使用 Seth 软件或基于 Seth 的其他工具从数据文件中获取必要的信息，并完成 Netkeeper 4.11.x 拨号。”数据文件“具有几个特性： 一个”数据文件“只能在一段时间内工作。一个”数据文件“只对一个 Netkeeper 账户（可能是你的手机号）有效，不同人的”数据文件“不能通用。（类似于 Linux 上很多驱动程序，驱动程序开源，但固件不开源）。数据文件只是“数据”而不是可执行代码，也无法影响 Seth 软件的逻辑，Seth 软件 100% 与 FOSS 兼容。</p>
+		<h3>
+			<font color=red>现在，我们创建了这个体验以允许你先行试用。一旦我们准备好，有效期较长的数据文件将永久免费提供。</font>
+		</h3>
+		<p>使用此页面，每次都可获取时长为 3 天的免费试用数据文件（可无限次获取）！见本卡片下方的表单。</p>
+		<p></p>
+		<p><b>支持的地区和运营商：</b><br>CMCC Shandong Netkeeper 4.11.x <font color='red'>（当前有效！）</font></p>
+		<p></p>
+		<p style='color: grey;'>已废弃（或被取代）的地区和运营商：<br>CMCC Shandong Netkeeper 2.5.x (已失效，被 CMCC Shandong Netkeeper 4.11.x 取代)<br>CMCC Shandong Netkeeper 4.9.x (已失效，被 CMCC Shandong Netkeeper 4.11.x 取代)</p>
+		<p>如果你得地区不在我们的支持列表中，请与我们联系，我们可以尝试对你得地区和运营商的客户端进行反向工程，从而有可能支持你的地区和运营商。</p>
+		<p><b>联系我们以获取技术支持和较长时间的数据文件，现在就加入 Telegram 群：（即将到来）</b></p>
+	</div>
+
+	<div id="gettry">
+		<h1>立即体验</h1>
+		<h2>你的 Netkeeper 上网用户名（可能是你的手机号）</h2>
+		<p></p>
+		<form id='form1' method='post' action=''>
+		<input type="text" placeholder="17800000000" id="nk_name">
+		<p></p>
+		<div id="cap1">正在加载 CAPTCHA...</div>
+		<p></p>
+		<button type='button' id="getnkdata">获取我的试用数据文件</button>
+		</form>
+		<p></p>
+		<div id="downloadtips2">
+			我们的服务器采用零日志设计，<b>不会</b>保存您的用户名（手机号）。<br>
+			我们坚定不移地相信，隐私是最重要的人权之一。我们<b>永远不会</b>收集或披露您的任何信息，也<b>永远不会</b>使用任何形式跟踪您。<br><br>
+			为了保护我们的服务不被滥用。请在 Asia/Shanghai (UTC+8) 时间的<b>上午 8 点到下午 6 点（不含）</b>之间访问本服务。
+		</div>
+		<div id="downloadtips">
+			你的下载应该已经开始，但是由于众所周知的原因，下载可能很慢或超时，如果你遇到这种情况，请重试几次或尝试等一段时间后重试，或者使用<b>全局科学上网</b>等方法来解决问题。
+		</div>
+		<div id="download">
+			<h3>下载 Seth 软件，请选择作业系统</h3>
+			<table>
+				<tr>
+					<td class="icon"><img src="svg/linux.svg"></td>
+					<td class="osname">GNU/Linux</td>
+					<td class="uris"></td>
+					<td class="uris"><a target="_blank" href='https://www.github.com/seth-nk/sdk'>源代码</a></td>
+				</tr>
+				<tr>
+					<td class="icon"><img src="svg/windows.svg"></td>
+					<td class="osname">Windows</td>
+					<td class="uris"><a target="_blank" href="https://github.com/seth-nk/sdk/releases/download/20191008/seth-dkt-and-sdk-windows.7z" onclick='showDownloadTips();'>下载 64 位二进制</a></td>
+					<td class="uris"><a target="_blank" href='https://www.github.com/seth-nk/sdk'>源代码</a></td>
+				</tr>
+				<tr>
+					<td class="icon"><img src="svg/openwrt.svg"></td>
+					<td class="osname">OpenWrt/LEDE</td>
+					<td class="uris"><a target="_blank" href="https://github.com/seth-nk/sdk/blob/master/openwrt/README.md">安装说明</a></td>
+					<td class="uris"><a target="_blank" href='https://github.com/seth-nk/sdk/tree/master/openwrt/seth'>源代码</a></td>
+				</tr>
+				<tr>
+					<td class="icon"><img src="svg/unix.svg"></td>
+					<td class="osname">其他 UNIX</td>
+					<td class="uris"></td>
+					<td class="uris"><a target="_blank" href='https://www.github.com/seth-nk/sdk'>源代码</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div style="padding: 0 20px; color: #575757; font-size: .92em;">
+		Seth Project 是由计算机技术爱好者组成的社群，其目的最初只是为帮助自己自由地接入网络。但我们乐意将我们利用反向工程取得的成果分享，从而保障那些使用 GNU/Linux 和其他不被供应商支持的作业系统的用户的权益，但不论你使用什么作业系统，我们都仍然爱你。我们项目的名字 “Seth” 来自古埃及神话中的风暴和沙漠之神 “stẖ”，“stẖ” 的一种英文翻译为“Seth”，再翻译成中文为“塞斯”。<br>
+		<b>如果本页显示有问题或某些功能无法正常使用，请切换你的浏览器为最新版本的 <a target="_blank" href="https://www.google.cn/chrome">Google Chrome</a> 或 <a target="_blank" href=
+https://www.mozilla.org/zh-CN/firefox/new/">Mozilla Firefox</a>。本站不支持任何版本的 IE 浏览器。</b><br>
+		<a target="_blank" href="https://fontawesome.com/license">Font Awesome License</a>
+	</div>
+	<script>
+		let showDownloadTips = () => {
+			document.getElementById('downloadtips').style.display = 'block';
+		}
+
+		document.getElementById('getnkdata').addEventListener('click', e => {
+			let name = document.getElementById('nk_name').value;
+			if (name === '') {
+				alert('请输入你的 Netkeeper 用户名');
+				return;
+			}
+
+			if (hcaptcha.getResponse() == '') {
+				alert('为了保护我们的服务不被恶意利用，请完成 hCaptcha 人机身份验证。如果无法加载 hCaptcha，请尝试科学上网。');
+				return;
+			}
+
+			let uri = 'https://seth.mahoken.workers.dev/api/nk4?' + name;
+			showDownloadTips();
+			//location.href = uri;
+			const form = document.getElementById('form1');
+			form.action = uri;
+			form.submit();
+		});
+
+		function capload() {
+			document.getElementById('cap1').textContent = '';
+			console.log("1")
+			hcaptcha.render('cap1', {
+				'sitekey': '96e73dba-82d0-473b-ba74-bcd7f41ea261'
+			});
+			console.log("2")
+		}
+	</script>
+</body>
+
+</html>
